@@ -1,0 +1,24 @@
+.form{
+    margin-top: 50px;
+}
+
+.container{
+    margin: 20px;
+}
+.inputName, .inputRep, .selectColor{
+    width: 200px;
+}
+label{
+    display:block;
+    width: 120px;
+    float: left;
+}
+.colSelector1{
+    background-color:darkcyan;
+}
+.colSelector2{
+    background-color:darkkhaki;
+}
+.colSelector3{
+    background-color:darkorange;
+}
