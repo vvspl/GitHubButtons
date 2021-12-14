@@ -1,4 +1,13 @@
+.allIconsContainer{
+    padding-bottom: 40px;
+    border-bottom: 2px solid gray;
+}
+
 .iconContainer{
     display: flex;
     flex-wrap: wrap;
+}
+
+.icoTitle{
+    margin-left: 50px;
 }

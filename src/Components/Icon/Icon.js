@@ -6,7 +6,7 @@ const Icon = ({ name }) => {
 
   return (
     <div className="icon">
-      <h3>{name}</h3>
+      <h3 className='icoName'>{name}</h3>
       <div className={`ico+${name}`}>
         <input
           className="radioIco"

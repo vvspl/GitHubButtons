@@ -1,7 +1,8 @@
 import React from 'react';
 import IconSelector from './Components/IconSelector/IconSelector';
 import Header from './Components/Header/Header';
-import Form from './Components/Form/Form';
+import ButtonOptions from './Components/ButtonOptions/ButtonOptions';
+import Preview from './Components/Preview/Preview';
 import './App.css';
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
     <div className="App">
       <Header />
       <IconSelector />
-      <Form />
+      <div className='bodyPage'>
+        <ButtonOptions />
+        <Preview/>
+      </div>
     </div>
   );
 }

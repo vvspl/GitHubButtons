@@ -1,7 +1,7 @@
 import React from 'react';
-import './Form.css';
+import './ButtonOptions.css';
 
-const Form = () => {
+const ButtonOptions = () => {
   return (
     <div className="form">
       <div className="container">
@@ -15,7 +15,7 @@ const Form = () => {
       <div className="container">
         <label>Select a color: </label>
         <select className="selectColor" type="color">
-          <option className="colSelector1" value="0" selected>
+          <option className="colSelector0" value="0" >
             Pick a color
           </option>
           <option className="colSelector1" value="1">
@@ -33,4 +33,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default ButtonOptions;

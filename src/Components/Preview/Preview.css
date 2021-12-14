@@ -1,0 +1,10 @@
+.generatedLinkField{
+    width: 800px;
+    height: 100px;
+    margin: 20px 0 20px 0 ;
+}
+.tryButton{
+    display: block;
+    min-width: 100px;
+    height:30px;
+}

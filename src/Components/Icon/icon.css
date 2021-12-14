@@ -1,5 +1,5 @@
 .icon{
-    width: 300px;
+    width: 280px;
     height: 100px;
     text-align: center;
 }
@@ -9,4 +9,7 @@
 .radioIco{
     vertical-align:middle;
     margin:-25px 10px 0 0;
+}
+.icoName{
+    font-size: 18px;
 }
