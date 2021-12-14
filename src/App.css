@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
+h2{
+    font-size: 20px;
+    margin: 15px 0 25px 50px;
+}
+
 .bodyPage{
     display: flex;
 }

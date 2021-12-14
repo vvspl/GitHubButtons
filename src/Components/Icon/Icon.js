@@ -1,8 +1,10 @@
 import React from 'react';
 import './icon.css';
 
-const Icon = ({ name }) => {
-  const onValueChange = () => {};
+const Icon = ({ name, selectIco }) => {
+  const onValueChange = (event) => {
+    selectIco(event.target.value);
+  };
 
   return (
     <div className="icon">

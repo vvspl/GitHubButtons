@@ -18,11 +18,11 @@ const icons = [
   'Share',
 ];
 
-const IconSelector = () => {
+const IconSelector = (props) => {
   return (
     <div className='allIconsContainer'>
-      <h2 className='icoTitle'>Select an icon: </h2>
-      <div className='iconContainer' >{icons.map(ico=><Icon name={ico} key={ico}/>)}</div>
+      <h2>Select an icon:</h2>
+      <div className='iconContainer' >{icons.map(ico=><Icon name={ico} key={ico} selectIco={props.selectIco}/>)}</div>
     </div>
   );
 };

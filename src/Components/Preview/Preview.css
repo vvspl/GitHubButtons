@@ -8,3 +8,9 @@
     min-width: 100px;
     height:30px;
 }
+
+.buttonImg{
+width: 20px;
+vertical-align: middle;
+margin: 0 5px 0 0;
+}
