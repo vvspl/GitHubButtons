@@ -23,7 +23,7 @@ const ButtonOptions = ({uName, repName, formColor}) => {
 
   return (
     <div className="form">
-      <h2>Button options</h2>
+      <h2 className='formTitle'>Button options</h2>
       <div className="container">
         <label>Enter username: </label>
         <input
