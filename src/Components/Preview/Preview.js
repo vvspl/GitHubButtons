@@ -8,16 +8,10 @@ const Preview = ({ icoName, uName, repName, formColor, showGenPage }) => {
     setIcon(icoName);
   }, [icoName]);
 
-  // const fetchData = () => {
-  //   fetch(`https://api.github.com/users/${uName}`)
-  //     .then(response => {
-  //       if (response.ok) {
-  //         return response.json();
-  //       }
-  //       throw new Error();
-  //     })
-  //     .then(data => console.log(data));
-  // };
+
+  let isButtonActive=false;
+  if(icoName!==null&&uName!==null&&repName!==null&&formColor!=='white') isButtonActive=true;
+  console.log(isButtonActive);
 
   let genLinkText = '<a href';
   if (icon !== null) genLinkText += ` chosen icon = ${icon}`;

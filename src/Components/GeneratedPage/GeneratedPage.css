@@ -4,6 +4,9 @@
     height: 100%;
     background-color: white;
 }
+.invisible{
+    display: none;
+}
 .card{
     width: 500px;
     border: 1px solid black;
